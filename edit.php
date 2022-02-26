@@ -61,8 +61,6 @@
 												<option ".($barang['jenis_brg'] == $jenis_brg ? 'selected' : '')." value=".$barang['jenis_brg'].">".$barang['jenis_brg']."</option>
 											";
 										}
-
-
 										 ?>
 								</select>
 								</td>
@@ -75,11 +73,15 @@
 								<td>Stok</td>
 								<td><input type="text" class="form-control" name="stok" value="<?php echo $stok; ?>"></td>
 							</tr>
-							<tr>
+<!-- 					<tr>
 								<td></td>
 								<td><input type="submit" class="form-control btn btn-primary" name="Submit" value="Selesai"></td>
-							</tr>
+							</tr> -->
 						</table>
+						<div class="row">
+							<div class="col-md-12 mt-5">
+								<input type="submit" name="Submit" value="Tambah" class="btn btn-success float-right mr-10 px-5 py-2"></input>
+							</div>
 					</form>
 				</div>
 			</div>

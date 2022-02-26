@@ -83,10 +83,9 @@
 										while ($pelanggan = mysqli_fetch_array($array_cust)) {
 											echo "
 												<option>".$pelanggan['id'].". ".$pelanggan['nama']."</option>
-
 											";
 										}
-										 ?>
+										?>
 								</select>
 								</td>
 							</tr>
@@ -121,12 +120,9 @@ function myFunction() {
 		$id_barang = $_POST['id_barang'];
 		$id_pelanggan = $_POST['id_pelanggan'];
 
-
-		$insert = mysqli_query($mysqli, "INSERT INTO `transaksi`(`id`, `waktu`, `keterangan`, `id_barang`, `id_pelanggan`) VALUES ('', '$waktu','$keterangan','$id_barang','$id_pelanggan')");
+		$insert = mysqli_query($mysqli, "INSERT INTO `transaksi`(`id`, `waktu`, `keterangan`, `id_barang`, `id_pelanggan`) VALUES ('$id', '$waktu','$keterangan','$id_barang','$id_pelanggan')");
 
 		// header("location:transaksi.php");
 		print_r($_POST);
-
 	}
-
  ?>
