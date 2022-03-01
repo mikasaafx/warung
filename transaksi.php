@@ -20,9 +20,11 @@
 											 ORDER BY id ASC");
 	 ?>
 
-	<div class="container-fluid">
+	<div class="container-xxl">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,197.3C320,224,400,224,480,229.3C560,235,640,245,720,218.7C800,192,880,128,960,90.7C1040,53,1120,43,1200,69.3C1280,96,1360,160,1400,192L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+		</svg>
 
-		<div class="row" style="margin: 60px;">
+		<div class="row mt-1" style="margin: 60px;">
 			<div class="col-md-3"></div>
 
 			<!-- <ul class="nav nav-pills position-fixed bg-light width">
@@ -77,7 +79,7 @@
 									<td>".$transaksi['nama_barang']."</td>
 									<td>".$transaksi['nama_pelanggan']."</td>
 									<td class = 'text-center'>
-									<a href='edit_trans.php?id=".$transaksi['id']."' class ='btn btn-secondary disabled'>Edit</a>
+									<a href='edit_trans.php?id=".$transaksi['id']."' class ='btn btn-secondary'>Edit</a>
 									<a href='#' class ='btn btn-danger' onclick = 'confirmation(".$transaksi['id'].")'>Hapus</a>
 									</td>
 								</tr>
@@ -93,7 +95,7 @@
 	</div>
 		
 </div>
-	
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,154.7C672,181,768,203,864,176C960,149,1056,75,1152,37.3C1248,0,1344,0,1392,0L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 	<script >
 		function confirmation(id) {
 			if (confirm('Antum yakin mau hapus data transaksi ini? ')) {
@@ -103,4 +105,5 @@
 			}
 	</script>
 </body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,154.7C672,181,768,203,864,176C960,149,1056,75,1152,37.3C1248,0,1344,0,1392,0L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </html>

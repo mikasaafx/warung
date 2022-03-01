@@ -17,9 +17,11 @@
 										  ORDER BY id ASC");
 	 ?>
 
-	<div class="container-fluid">
+	<div class="container-xxl">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,197.3C320,224,400,224,480,229.3C560,235,640,245,720,218.7C800,192,880,128,960,90.7C1040,53,1120,43,1200,69.3C1280,96,1360,160,1400,192L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+		</svg>
 
-		<div class="row" style="margin: 60px;">
+		<div class="row mt-1" style="margin: 60px;">
 			<div class="col-md-3"></div>
 
 			<!-- <ul class="nav nav-pills position-fixed bg-light width">
